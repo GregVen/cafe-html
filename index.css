@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: blanchedalmond;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li a {
+    display: inline;
+    width: 60px;
+  }
+
+.section1{
+    background-image: url(IMG/frame.jpg);
+}
