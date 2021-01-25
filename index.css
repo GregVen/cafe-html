@@ -1,24 +1,133 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /*normalisation de la page*/
+    
 }
-
+html , body {
+  font-family: 'Open Sans';
+  color: #222;
+}
 header{
-    background-color: black;
-    color: blanchedalmond;
-}
+    background-color: #333;
+    overflow: auto;
+  } 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+h1{
+  font-size: 1rem;
+  float: left;
+  padding: 1.23rem;
   }
 
-li a {
-    display: inline;
-    width: 60px;
+h1 a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  float: right;
+  font-size: 12px;
+  }
+
+li{
+  display: inline-block;
+  
+  text-align: center;
+
+}
+li a{
+  display:block;
+  text-decoration: none;  /* enleve le formatage de lien*/
+  padding: 1.41rem 0.6rem 1.41rem 0.6rem;
+  color: whitesmoke;
+}
+li .active{
+  background-color: #444;
   }
 
 .section1{
     background-image: url(IMG/frame.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 22rem;
+}
+
+h2{
+  padding-top: 3rem;
+  padding-bottom: 0.7rem;
+  width: 50%;
+  margin: auto;
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+.section1 hr{
+  height: 0.4rem;
+  width: 4rem;
+  margin: auto;
+  background-color: black;
+  border: none;
+}
+
+.section1 p {
+  padding-top: 0.7rem;
+  padding-bottom: 1rem;
+  width: 50%;
+  margin: auto;
+  color: whitesmoke;
+  font-size: 0.7rem;
+}
+
+.section1 a{
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.6rem;
+  padding: 0.3rem;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.cafe{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  height: 22rem;
+  }
+
+.cafe div {
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.cafe h3{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cafe p {
+  font-size: 0.8rem;
+}
+
+.personn{ 
+  background-image: url(IMG/person-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 22rem;
+}
+
+.reservation h3{
+  padding-top: 4rem;
+  padding-bottom: 0.7rem;
+  text-align: center;
+}
+
+.reservation p{
+  width: 75%;
+  margin: auto;
+  padding-bottom: 4rem;
 }

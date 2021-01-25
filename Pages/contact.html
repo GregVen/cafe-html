@@ -12,34 +12,36 @@
 
 <body>
     <header>
-        <h1>CAFE FLORETTE</h1>
+        <h1><a href="../index.html">CAFE FLORETTE</a></h1>
             <nav>
                 <ul>
                     <li><a href="../index.html">Accueil</a></li>
                     <li><a href="./where.html">Nous Trouver</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a  href="#" class="active">Contact</a></li>
                 </ul>
             </nav>
     </header>
 
     <section>
-        <h3>Une Question? Contactez nous</h3>
         <div>
+            <h3>Une Question? Contactez nous</h3>
+            <div>
             <!-- ligne avec div -->
+            </div>
+            <form action="">
+                <label>Nom</label>
+                <p><input type="text" name="nom" id="nom"> </p>
+
+                <label>Email</label>
+                <p><input type="email" name="email" id="email"></p>
+
+                <label>Questions et remarques</label>
+                <p><textarea name="textarea" id="questions" cols="30" rows="10"></textarea></p>
+
+                <button type="submit">SOUMETTRE</button>
+
+            </form>
         </div>
-        <form action="">
-            <label>Nom</label>
-            <p><input type="text" placeholder="Nom" name="nom"></p>
-
-            <label>Email</label>
-            <p><input type="email" placeholder="email" name="email"></p>
-
-            <label>Questions et remarques</label>
-            <p><input type="textarea" placeholder="Questions" id="questions"></p>
-
-            <button type="submit">SOUMETTRE</button>
-
-        </form>
     </section>
 
 
