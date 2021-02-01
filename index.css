@@ -7,7 +7,7 @@
 html , body {
   font-family: 'Open Sans';
   color: #222;
-  width: 900px;
+  /*width: 900px;*/
 }
 
 header{
@@ -167,6 +167,9 @@ h2{
   border:#222;
 }
 
+/*where*/
+
+
 .wheresection{
   height: 28rem;
 }
@@ -182,10 +185,14 @@ h2{
 }
 
 .line1{
+  margin-top: 1rem;
   font-weight: bold;
   font-size: 1rem;
 }
-
+.line2{
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
 .ounoustrouver{
   margin-left: 2rem;
 }
@@ -205,11 +212,6 @@ h2{
   margin-bottom: 0rem;
 }
 
-.line1{
-  margin-top: 1rem;
-  font-weight: bold;
-  font-size: 1rem;
-}
 #four{
   background-color: hotpink;
   padding:0 0.5rem 0 0.5rem;
@@ -223,19 +225,31 @@ h2{
   color:whitesmoke;
 }
 
+
+
+
+/*contact*/
+
+
+
 .sectioncontact{
-  margin: 3rem 0 3rem 15rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100%;
   }
-.sectioncontact h3{
+
+  .sectioncontact div{
+    margin: 1rem auto 1rem auto;
+    text-align: left;
+    }
+
+
+
+.divcontact h3{
   font-weight: bold;
   font-size: 1.2rem;
   padding-bottom: 1rem;
-}
-
-
-.line2{
-  margin-top: 1rem;
-  font-size: 0.8rem;
+  text-align: center;
 }
 
 .divcontact div{
@@ -243,30 +257,40 @@ h2{
   width: 25rem;
   background-color: gray;
   border: none;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
+  text-align: center;
  }
 
-.sectioncontact label{
+.divcontact label{
+  display: block;
   font-size: 0.7rem;
   font-weight: bold;
+  text-align: center;
   overflow: auto;
 }
-.sectioncontact input{
+.divcontact input{
+
   width: 25rem;
+  display: block;
   border-width: 1px;
   border-color:rgba(0,0,0,0.20);
-  
+  margin-left: auto;
+  margin-right: auto;
 }
-.sectioncontact textarea{
+
+.divcontact textarea{
+  display: block;
   height: 4rem;
   width: 25rem;
   border-width: 1px;
   border-color:rgba(0,0,0,0.20);
   resize:none;   /*empecher le redimensionneemnt du textarea*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
 }
 
-.sectioncontact button{
+.divcontact button{
+  display: block;
   color: whitesmoke;
   text-decoration: none;
   font-weight: bold;
@@ -275,13 +299,17 @@ h2{
   background-color: #222;
   border-radius: 20px;
   border:none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.sectioncontact button:hover{
+.divcontact button:hover{
   color:#222;
   font-weight: bold;
   background-color: gray;
 }
+
+/*footer*/
 
 footer{
   height: 4rem;
@@ -289,4 +317,8 @@ footer{
   background-color: #333;
   color:whitesmoke;
   text-align: center;
-}
+  }
+
+footer p{
+    margin-bottom: 0px;
+  }

@@ -1,0 +1,63 @@
+@media screen and (min-width: 300px) and (max-width: 805px) {
+    h1{
+      text-align: center;
+      float: none;
+      display: block;
+      }
+    
+     
+    nav {
+      float: none;
+      text-align: center;
+      }
+
+    .section1{
+        height: auto;
+        padding-bottom: 2rem;
+               
+     }
+    .cafe{
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        }
+      
+    .cafe div {
+        width: 80%;
+        float: none;
+        text-align: center;
+        margin:2rem auto 2rem auto;
+     }
+    .reservation{
+        text-align: center;
+        height: auto;
+        padding-bottom: 2rem;
+            
+     } 
+    .wheresection{
+      display: inline;
+      text-align: center;
+      }
+    .wheresection iframe{
+        padding-left: 0rem;
+        padding-top: 3rem;
+      }
+    
+    .wheresection div{
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0rem;
+      width: 100%;
+    }
+    .ounoustrouver div{
+      display: inline-block;
+      height: 0.1rem;
+      width: 25rem;
+      background-color: gray;
+      border: none;
+      margin-top: 0rem;
+      margin-bottom: 0rem;
+    }
+        
+  }
